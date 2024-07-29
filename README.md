@@ -3,3 +3,8 @@
 
 ## 📕 Resumo
 Este repositório é dedicado ao projeto de Banco de Dados do curso de Sistemas de Informação do CIn-UFPE. Aqui são armazenados todos as artefatos que fazem parte do processo da modelagem completa de um banco de dados. Incluindo os modelos conceitual, lógico e físico
+
+
+## 🧑‍💻 Tecnologias e ferramentas utilizadas na realização do projeto:
+
+- EERCASE
