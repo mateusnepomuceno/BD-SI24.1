@@ -43,9 +43,9 @@ INSERT INTO BENEFICIOS VALUES ('Vale Alimentação', '23456789012');
 INSERT INTO BENEFICIOS VALUES ('Vale Transporte', '34567890123');
 
 -- Populando a tabela CONSULTORIO
-INSERT INTO CONSULTORIO VALUES ('12345678', 'Rua cortez, 100', 'Olinda', 'Sorridents');
-INSERT INTO CONSULTORIO VALUES ('23456789', 'Avenida norte, 200', 'Recife', 'Dentin');
-INSERT INTO CONSULTORIO VALUES ('34567890', 'Praça dos campos, 300', 'Caruaru', 'Bom Dente');
+INSERT INTO CONSULTORIO VALUES ('12345678', 'Rua cortez, 100', 'Olinda', 'Medical Center');
+INSERT INTO CONSULTORIO VALUES ('23456789', 'Avenida norte, 200', 'Recife', 'Med');
+INSERT INTO CONSULTORIO VALUES ('34567890', 'Praça dos campos, 300', 'Caruaru', 'Medigatos');
 
 -- Populando a tabela SERVICO
 INSERT INTO SERVICO VALUES ('12345678', 'Rua cortez, 100', '14755341400', TO_DATE('01/01/2020', 'DD/MM/YYYY'), NULL, 'Recepcionista');
