@@ -3,6 +3,8 @@
 INSERT INTO CONVENIO VALUES ('12345678901234', 'Convenio Hapvida', '10%');
 INSERT INTO CONVENIO VALUES ('98765432109876', 'Convenio Unimed', '15%');
 INSERT INTO CONVENIO VALUES ('45678901234567', 'Convenio Saúde e amor', '20%');
+INSERT INTO CONVENIO VALUES ('84659789899456', 'Médigatos', '100%');
+INSERT INTO CONVENIO VALUES ('84659789899456', 'Convenio Sulamerica', '25%');
 
 -- Populando a tabela PACIENTE
 INSERT INTO PACIENTE VALUES ('11122233333', 'Roberto',  TO_DATE('15/05/1990', 'DD/MM/YYYY'), 34, 'Rua Mangabeira', 'Recife', '123', 'Macaxeira', '984155152', 'ares@gmail.com', '45678901234567');
