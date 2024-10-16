@@ -202,7 +202,7 @@ WHERE C2.CPF_MEDICO != M.CPF);
 
 --Todas as cidades com pacientes registrados
 SELECT DISTINCT P.END_CIDADE
-FROM PACIENTE P
+FROM PACIENTE P;
 
 --Pacientes e MEDICOs pelos quais já foram atendidos
 SELECT P.NOME AS PACIENTE, M.NOME AS MEDICO
@@ -212,7 +212,7 @@ WHERE (C.CPF_PACIENTE = P.CPF) AND
 
 --Pacientes e seus respectivos pacientes mais novos
 SELECT P1.NOME, P2.NOME
-FROM PACIENTE P1 INNER JOIN PACIENTE P2 ON (P1.IDADE > P2.IDADE)
+FROM PACIENTE P1 INNER JOIN PACIENTE P2 ON (P1.IDADE > P2.IDADE);
 
 --Pacientes sem consultas registradas
 SELECT P.NOME AS PACIENTE
